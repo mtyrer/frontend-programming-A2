@@ -19,58 +19,110 @@
     <header>
         <div class="container">
             <!-- top section sign in guardian supporter etc -->
-            <nav>
-                <div class="row"> <!-- top row -->
-                    <a href="#">
-                        <!-- The person icon -->    
-                        <span class="inline-profile-36 inline-icon rounded-icon control__icon-wrapper">
-                            <svg width="18" height="18" viewBox="0 0 18 18" class="rounded-icon__svg control__icon-wrapper__svg inline-profile-36__svg inline-icon__svg">
-                                <path d="M9 7.3c1.6 0 3.4-1.8 3.4-3.9S11.1 0 9 0 5.6 1.3 5.6 3.4s2 3.9 3.4 3.9zm5.9 3.4l-.9-.8c-1.7-.6-3.1-.9-5-.9s-3.3.3-5 .9l-.9.9L1 17.2l.9.8h14.3l.9-.9-2.2-6.4z"></path>
-                            </svg>
-                        </span>
-                        sign in
-                    </a>
-
-                    <!-- The G icon -->
-                    <svg width="36" height="36" viewBox="0 0 36 36" class="rounded-icon__svg control__icon-wrapper__svg inline-marque-36__svg inline-icon__svg">
-                        <path d="M21.3 8.8c0-4.9-1.5-5.7-3.3-5.7-1.8 0-3.2.7-3.2 5.7s1.5 5.5 3.2 5.5c1.8-.1 3.3-.6 3.3-5.5m-6.5 18.8c-2.3 0-2.9 1.7-2.9 2.9 0 1.8 1.6 3.4 6.3 3.4 5.3 0 6.8-1.5 6.8-3.4 0-1.7-1.3-2.9-3.4-2.9h-6.8zM10.5 2.4C4.3 5.2 0 11.4 0 18.7c0 4.9 2 9.4 5.2 12.6V31c0-3.2 3.1-4.4 5.9-5-2.6-.6-3.9-2.5-3.9-4.4 0-2.6 2.9-4.8 4.3-5.8l-.2-.1c-2.5-1.4-4.1-3.8-4.1-7 0-2.7 1.2-4.9 3.3-6.3M36 18.8C36 11.4 31.5 5 25.1 2.3c2.1 1.4 3.4 3.5 3.5 6.3l.1.6c0 5.4-4.4 8.2-10.7 8.2-1.6 0-2.7-.1-4.1-.5-.6.4-1.1 1.1-1.1 1.8 0 .9.8 1.6 1.8 1.6h8.8c5.5 0 8.2 2.2 8.2 7.1 0 1.6-.3 3.1-1 4.3 3.3-3.4 5.4-7.9 5.4-12.9"></path>
-                    </svg> <a href="#">become a supporter</a><span><a href="">subscribe </a></span>
-
-                    <!-- search -->
-                    <a href="">
-                        <!-- The Search icon -->
-                        <span class="inline-search-36 inline-icon rounded-icon control__icon-wrapper">
-                            <svg width="18" height="18" viewBox="0 0 18 18" class="rounded-icon__svg control__icon-wrapper__svg inline-search-36__svg inline-icon__svg">
-                            <path d="M6.5 1.6c2.7 0 4.9 2.2 4.9 4.9s-2.2 4.9-4.9 4.9-4.9-2.2-4.9-4.9 2.2-4.9 4.9-4.9m0-1.6C2.9 0 0 2.9 0 6.5S2.9 13 6.5 13 13 10.1 13 6.5 10.1 0 6.5 0zm6.6 11.5l4.9 4.9-1.6 1.6-4.9-4.9v-.8l.8-.8h.8z"></path>
-                            </svg>
-                        </span>
-                        search
-                    </a>
-                    
-
-                </div> <!--top row -->
-
-                <ul>
-                    <item>Jobs</item>
-                    <item>Dating</item>
-                    <item>more
-                    <ul>
-                        <item>from the guardian</item>
-                        <item>jobs</item>
-                    </ul></item>
-                    <item>International Edition
-                        <ul>
-                            <item>UK Edition</item>
-                            <item>US Edition</item>
-                            <item>Austrailian Edition</item>
-                        </ul>
-                    </item>
-                </ul>
-            </nav>
+            
+            <div class="row"> <!-- top row -->
+                <div class="col-lg-5">
+                    <div id="top-bar-left">
+                        <div class="bar-item">
+                            <a href="#" class="icon-link">
+                                <!-- The person icon -->    
+                                <div class="person-icon-wrapper">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" class="person-icon">
+                                        <path d="M9 7.3c1.6 0 3.4-1.8 3.4-3.9S11.1 0 9 0 5.6 1.3 5.6 3.4s2 3.9 3.4 3.9zm5.9 3.4l-.9-.8c-1.7-.6-3.1-.9-5-.9s-3.3.3-5 .9l-.9.9L1 17.2l.9.8h14.3l.9-.9-2.2-6.4z"></path>
+                                    </svg>
+                                </div>
+                            
+                                <div class="visible-lg-inline-block">
+                                    <div class="vertical_align_14_36">
+                                        sign in
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bar-item">
+                            <!-- The G icon -->
+                            <svg width="36" height="36" viewBox="0 0 36 36" class="g-icon">
+                                <path d="M21.3 8.8c0-4.9-1.5-5.7-3.3-5.7-1.8 0-3.2.7-3.2 5.7s1.5 5.5 3.2 5.5c1.8-.1 3.3-.6 3.3-5.5m-6.5 18.8c-2.3 0-2.9 1.7-2.9 2.9 0 1.8 1.6 3.4 6.3 3.4 5.3 0 6.8-1.5 6.8-3.4 0-1.7-1.3-2.9-3.4-2.9h-6.8zM10.5 2.4C4.3 5.2 0 11.4 0 18.7c0 4.9 2 9.4 5.2 12.6V31c0-3.2 3.1-4.4 5.9-5-2.6-.6-3.9-2.5-3.9-4.4 0-2.6 2.9-4.8 4.3-5.8l-.2-.1c-2.5-1.4-4.1-3.8-4.1-7 0-2.7 1.2-4.9 3.3-6.3M36 18.8C36 11.4 31.5 5 25.1 2.3c2.1 1.4 3.4 3.5 3.5 6.3l.1.6c0 5.4-4.4 8.2-10.7 8.2-1.6 0-2.7-.1-4.1-.5-.6.4-1.1 1.1-1.1 1.8 0 .9.8 1.6 1.8 1.6h8.8c5.5 0 8.2 2.2 8.2 7.1 0 1.6-.3 3.1-1 4.3 3.3-3.4 5.4-7.9 5.4-12.9"></path>
+                            </svg> 
+                            <a href="#" class=" icon-link">
+                                <div class="visible-lg-inline-block">
+                                    <div class="vertical_align_14_36 border-right">
+                                        become a supporter
+                                    </div>
+                                </div>
+                            </a>
+                        </div>                            
+                        <div class="bar-item">
+                            <a href="" class="icon-link">
+                                <div class="visible-lg-inline-block">
+                                    <div class="vertical_align_14_36">
+                                        subscribe 
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="bar-item">
+                            <!-- search -->
+                            <a href="#" class="icon-link">
+                                <!-- The person icon -->    
+                                <div class="person-icon-wrapper">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" class="person-icon">
+                                        <path d="M6.5 1.6c2.7 0 4.9 2.2 4.9 4.9s-2.2 4.9-4.9 4.9-4.9-2.2-4.9-4.9 2.2-4.9 4.9-4.9m0-1.6C2.9 0 0 2.9 0 6.5S2.9 13 6.5 13 13 10.1 13 6.5 10.1 0 6.5 0zm6.6 11.5l4.9 4.9-1.6 1.6-4.9-4.9v-.8l.8-.8h.8z"></path>
+                                    </svg>
+                                </div>
+                            
+                                <div class="visible-lg-inline-block">
+                                    <div class="vertical_align_14_36">
+                                        search 
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- col-lg-4-->
+            
+                <div class="col-lg-offset-3 col-lg-4">
+                    <nav class= "navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#guardian-top-menu" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="guardian-top-menu">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">Dating</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li>from the guardian</li>
+                                            <li><a href="#">jobs</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">International Edition<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">UK Edition</a></li>
+                                            <li><a href="#">US Edition</a></li>
+                                            <li><a href="#">Austrailian Edition<</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> <!-- container-fluid -->
+                    </nav>
+                </div> <!-- col-lg-6 -->
+            </div> <!--row -->
 
 
             <div class="row"> <!-- Theguardian bar -->
-            theguardian
+                <div class="theguardian">
+                    <span id="the">the</span><span id="guardian">guardian</span>
+                </div>
             </div>
             <div class="row"><!-- The nav bar -->
                 <nav>
@@ -739,7 +791,7 @@
                     <h2>Popular</h2>
                 </div>
                 <div class="row">
-                        <div class="col-lg-6">
+                    <div class="col-lg-6">
                         <section> <!-- main article -->
                             Article 1 headline:
                             Google Maps hides an image of the Android robot urinating on Apple
@@ -784,8 +836,9 @@
                             Article 10 headline: 
                             20 Apple Watch apps worth trying on launch day – in their developers' words
                         </section>
-                    </div> <!-- row -->
-        
+                    </div> <!-- 6 columns -->
+                </div> <!-- row -->
+            </div>
             <!-- more button -->
             <button> icon More popular</button>
         </div> <!-- container -->

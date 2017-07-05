@@ -3,6 +3,75 @@ header {
     color: #fff;
 }
 
+ul {
+    list-style: none;
+}
+
+.person-icon {
+    fill: #ffffff;
+    height: 18px;
+    width:18px;
+    display: block;
+    margin: 8px;
+}
+
+.g-icon {
+    fill: #ffffff;
+}
+
+.person-icon-wrapper {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(75,198,223,0.4);   
+    height: 36px;
+    border-radius: 18px;
+    display: inline-block;
+   /* width: 36px; */
+    margin-top: 10px;
+}
+
+.vertical_align_14_36 {
+    vertical-align: top;
+    float: left;
+    height: 36px;
+    padding-top: 10px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.icon-link:hover .person-icon-wrapper {
+    border-color: #fff;
+}
+
+.icon-link:hover .vertical_align_14_36 {
+    text-decoration: underline;
+}
+
+.bar-item {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.border-right {
+    border-width: 0 1px 0 0 ;
+    border-color: rgba(75,198,223,0.4);
+    border-style: solid;
+    padding-right: 3px;
+}
+
+#top-bar-left {
+    padding-left: 0px;
+    display: inline-block;
+}
 .breadcrumbs {
     background-color: #dfdfdf;
+}
+
+#the {
+    line-height: 24px;
+}
+
+#guardian {
+    line-height: 24px;
 }
