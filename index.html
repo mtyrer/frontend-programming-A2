@@ -55,7 +55,7 @@
                         <div class="bar-item">
                             <a href="" class="icon-link">
                                 <div class="visible-lg-inline-block">
-                                    <div class="vertical_align_14_36">
+                                    <div class="vertical_align_14_36" id="subscribe">
                                         subscribe 
                                     </div>
                                 </div>
@@ -82,8 +82,8 @@
                 </div> <!-- col-lg-4-->
             
                 <div class="col-lg-offset-3 col-lg-4">
-                    <nav class= "navbar navbar-default">
-                        <div class="container-fluid">
+                    <nav class= "navbar">
+                        <div class="container-fluid" id="topbar-container-right">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#guardian-top-menu" aria-expanded="false">
                                     <span class="sr-only">Toggle navigation</span>
@@ -94,21 +94,21 @@
                             </div>
                             <div class="collapse navbar-collapse" id="guardian-top-menu">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">Dating</a></li>
+                                    <li><a href="#" class="topbar-right-link">Jobs</a></li>
+                                    <li><a href="#" class="topbar-right-link">Dating</a></li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle topbar-right-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li>from the guardian</li>
+                                            <li class="disabled"><a disabled>from the guardian</a></li>
                                             <li><a href="#">jobs</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">International Edition<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle topbar-right-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">International Edition<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">UK Edition</a></li>
                                             <li><a href="#">US Edition</a></li>
-                                            <li><a href="#">Austrailian Edition<</a></li>
+                                            <li><a href="#">Austrailian Edition</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -124,32 +124,35 @@
                     <span id="the">the</span><span id="guardian">guardian</span>
                 </div>
             </div>
-            <div class="row"><!-- The nav bar -->
-                <nav>
-                    <a href="#" title="Back to homepage">
-                    <span class="top-navigation__icon top-navigation__icon--home"></span>
-                    <span class="u-h">home</span>
-                    </a>
-                    <ul>
-                        <item><a href="">UK</a></item>
-                        <item><a href="">World</a></item>
-                        <item><a href="">Sport</a></item>
-                        <item><a href="">football</a></item>
-                        <item><a href="">opinion</a></item>
-                        <item><a href="">culture</a></item>
-                        <item><a href="">business</a></item>
-                        <item><a href="">lifestyle</a></item>
-                        <item><a href="">fashon</a></item>
-                        <item><a href="">environment</a></item>
-                        <item><a href="">tech</a></item>
-                        <item><a href="">travel</a></item>
-                    </ul>
-
-                    <ul>
-                        <item>browse all sections</item>
-                    </ul>
-                </nav>
-            </div>
+        </div> <!--container-->
+        <div class="container-fluid" id="guardian-content-bar">
+            <div class="row-fluid"><!-- The nav bar -->
+                <div 
+                <div class="col-lg-offset-1 col-lg-11">
+                    <nav class="navbar guardian-content">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" title="Back to homepage" class="content-bar">
+                                <span class="top-navigation__icon top-navigation__icon--home"></span>
+                                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            </a></li>
+                            <li><a href="" class="content-bar">UK</a></li>
+                            <li><a href="" class="content-bar">World</a></li>
+                            <li><a href="" class="content-bar">Sport</a></li>
+                            <li><a href="" class="content-bar">football</a></li>
+                            <li><a href="" class="content-bar">opinion</a></li>
+                            <li><a href="" class="content-bar">culture</a></li>
+                            <li><a href="" class="content-bar">business</a></li>
+                            <li><a href="" class="content-bar">lifestyle</a></li>
+                            <li><a href="" class="content-bar">fashon</a></li>
+                            <li><a href="" class="content-bar">environment</a></li>
+                            <li><a href="" class="content-bar">tech</a></li>
+                            <li><a href="" class="content-bar">travel</a></li>
+                            <li><a href="" class="content-bar" id="browse-all-sections">browse all sections</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- col-lg-offset-3 col-lg-9 -->
+            </div> <!-- row -->
             <div class="row-fluid"><!-- bread crumb row -->
                 <div class="col-xs-12 breadcrumbs">
                     <a href="#">home</a> > <a href="#">tech</a>

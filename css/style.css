@@ -35,7 +35,7 @@ ul {
     float: left;
     height: 36px;
     padding-top: 10px;
-    margin-left: 5px;
+    margin-left: 0px;
     color: #fff;
 }
 
@@ -49,7 +49,7 @@ ul {
 
 .bar-item {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-right: 5px;
 }
 
@@ -57,21 +57,76 @@ ul {
     border-width: 0 1px 0 0 ;
     border-color: rgba(75,198,223,0.4);
     border-style: solid;
-    padding-right: 3px;
+    padding-right: 10px;
 }
 
 #top-bar-left {
     padding-left: 0px;
     display: inline-block;
 }
+
+#topbar-container-right {
+    padding: 0;
+}
+
+#guardian-top-menu {
+    padding: 0;
+}
+
+.topbar-right-link {
+    padding-right: 0px !important;
+    color: #fff;
+}
+
+a.topbar-right-link:hover {
+    color: #fff !important;
+    background-color:  #005689 !important;
+    text-decoration: underline !important; 
+}
+
+a.topbar-right-link:focus, a.topbar-right-link:active {
+    color: #fff !important;
+    background-color:  #005689 !important;
+    text-decoration: none !important; 
+}
+
+
+
 .breadcrumbs {
     background-color: #dfdfdf;
 }
+.theguardian {
+    float:right;
+    margin-top: -40px;
+}
 
 #the {
-    line-height: 24px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #aadce6;
 }
 
 #guardian {
-    line-height: 24px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#guardian-content-bar {
+    background-color: #00507f;
+
+}
+
+.guardian-content {
+    margin-left: 44px;
+    margin-bottom: 0;
+}
+
+.content-bar {
+    background-color: #00456e;
+    color: #fff;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 16px;
 }
