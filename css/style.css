@@ -15,6 +15,26 @@ a:hover {
     color: inherit;
 }
 
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button {
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.button-more {
+    background-color: #005689;
+    color: #fff;
+} 
+
+aside {
+    position: absolute;
+    bottom: 0;
+}
+
 .person-icon {
     fill: #ffffff;
     height: 18px;
@@ -25,6 +45,10 @@ a:hover {
 
 .g-icon {
     fill: #ffffff;
+}
+
+.comment-icon {
+    fill: rgba(0,0,0,0.4);
 }
 
 .person-icon-wrapper {
@@ -62,10 +86,61 @@ a:hover {
 }
 
 .border-right {
-    border-width: 0 1px 0 0 ;
+    border-right-width: 1px !important;
+    border-left-width: inherit;
+    border-top-width: inherit;
+    border-bottom-width: inherit;
     border-color: rgba(75,198,223,0.4);
     border-style: solid;
     padding-right: 10px;
+}
+
+.border-left {
+    border-left-width: 1px !important;
+    border-right-width: inherit;
+    border-top-width: inherit;
+    border-bottom-width: inherit;
+    border-color: rgba(75,198,223,0.4);
+    border-style: solid;
+    padding-right: 10px;
+}
+
+.border-top {
+    border-top-width: 1px !important;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    border-bottom-width: inherit;
+    border-color: rgba(75,198,223,0.4);
+    border-style: solid;
+    padding-right: 10px;
+}
+
+.border-section-top {
+    border-top-width: 1px !important;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    border-bottom-width: inherit;
+    border-color: #4bc6df;;
+    border-style: solid;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.border-top-pink {
+    border-top-width: 1px !important;
+    border-right-width: inherit;
+    border-left-width: inherit;
+    border-bottom-width: inherit;
+    border-color: #951c55;
+    border-style: solid;
+    padding-right: 10px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 #top-bar-left {
@@ -190,12 +265,21 @@ a.content-bar-right:hover {
     text-decoration: underline !important; 
 }
 
+.topic-area {
+    margin-top: 10px;
+}
+
+.topic-item {
+    height: 100%;
+    margin-bottom: 21px;
+}
+
 .pink {
     background-color: #951c55 ;
     color: #fff;
 }
 
-.pink:hover {
+.pink:hover, .pink:focus {
     background-color: #84194b !important;
     text-decoration: none;
 }
@@ -230,7 +314,7 @@ a.lighten:hover img{
 }
 
 
-.lighten:hover {
+.lighten:hover, .lighten:focus {
     background-color: #eaeaea !important;
     text-decoration: none;
 }
@@ -246,4 +330,19 @@ a.lighten:hover img{
     margin-top: 0px;
     font-weight: bold;
     color: rgb(0, 69, 110);
+}
+
+.left-edge {
+    height: 100%;
+}
+
+.storylink {
+    position: absolute;
+    bottom: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
 }
