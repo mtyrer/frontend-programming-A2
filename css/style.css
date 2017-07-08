@@ -7,6 +7,14 @@ ul {
     list-style: none;
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
 .person-icon {
     fill: #ffffff;
     height: 18px;
@@ -91,12 +99,26 @@ a.topbar-right-link:focus, a.topbar-right-link:active {
 }
 
 
-
 .breadcrumbs {
     background-color: #dfdfdf;
+    padding-left: 190px;
 }
+
+.breadcrumbs > a {
+    color: #005689;
+}
+
+.breadcrumb-bar {
+    margin-left: 0px;
+}
+
+.glyphicon-menu-right {
+    color: rgb(118, 118, 118);
+}
+
+
 .theguardian {
-    float:right;
+    float: right;
     margin-top: -40px;
 }
 
@@ -113,12 +135,14 @@ a.topbar-right-link:focus, a.topbar-right-link:active {
 
 #guardian-content-bar {
     background-color: #00507f;
+     padding: 0px;
 
 }
 
 .guardian-content {
     margin-left: 44px;
     margin-bottom: 0;
+    min-height: 32px;
 }
 
 .content-bar {
@@ -129,4 +153,97 @@ a.topbar-right-link:focus, a.topbar-right-link:active {
     padding-left: 10px !important;
     padding-right: 10px !important;
     font-size: 16px;
+}
+
+a.content-bar:hover {
+    color: #fff !important;
+    background-color:  #00456e !important;
+    text-decoration: underline !important; 
+}
+
+.nav-float-right {
+    float: right;
+}
+
+#browse-all-sections {
+    background-color: #333333;
+}
+
+a.content-bar-right:hover {
+    background-color: #333333;
+}
+
+
+.content-bar-right {
+    background-color: #333 !important;
+    color: #fff;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 16px;
+}
+
+a.content-bar-right:hover {
+    color: #fff !important;
+    background-color:  #333 !important;
+    text-decoration: underline !important; 
+}
+
+.pink {
+    background-color: #951c55 ;
+    color: #fff;
+}
+
+.pink:hover {
+    background-color: #84194b !important;
+    text-decoration: none;
+}
+
+a.pink img{
+  vertical-align:     middle;
+  transition:         opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+}
+a.pink:hover img{
+  opacity:            0.8;
+}
+
+.lighten {
+    background-color: #eaeaea ;
+    color: #515151;
+}
+
+a.lighten img{
+  vertical-align:     middle;
+  transition:         opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+}
+a.lighten:hover img{
+  opacity:            0.8;
+}
+
+
+.lighten {
+    background-color: #fff ;
+    color: #515151;
+}
+
+
+.lighten:hover {
+    background-color: #eaeaea !important;
+    text-decoration: none;
+}
+
+.section-title {
+    border-top-width: 1px;
+    border-top-color:  rgb(75, 198, 223);
+    border-top-style: solid;
+    margin-top: 10px;
+}
+
+.section-title > h2 {
+    margin-top: 0px;
+    font-weight: bold;
+    color: rgb(0, 69, 110);
 }
