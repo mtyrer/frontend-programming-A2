@@ -1,3 +1,7 @@
+* {
+    font-family: 'Arvo', serif;
+}
+
 header {
     background-color: #005689;
     color: #fff;
@@ -32,7 +36,19 @@ button {
 
 .button-more:hover {
     background-color: #00507f;
+}
+
+.no-padding {
+    padding: 0 !important;
 } 
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.inline {
+    display: inline-block;
+}
 
 
 aside {
@@ -44,7 +60,7 @@ aside {
 }
 
 .person-icon {
-    fill: #ffffff;
+   fill : #ffffff;
     height: 18px;
     width:18px;
     display: block;
@@ -148,6 +164,7 @@ aside {
     padding-right: 10px;
 }
 
+
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -165,6 +182,7 @@ aside {
 }
 
 #guardian-top-menu {
+    float: right;
     padding: 0;
 }
 
@@ -188,15 +206,26 @@ a.topbar-right-link:focus, a.topbar-right-link:active {
 
 .breadcrumbs {
     background-color: #dfdfdf;
-    padding-left: 190px;
+    padding-left: 10px;
+    
 }
 
-.breadcrumbs > a {
+@media (max-width: 768px) {
+    .breadcrumbs {
+        min-height: 32px;
+    }
+
+    .row-eq-height {
+        display: block;
+    }
+}
+
+.breadcrumbs  a {
     color: #005689;
 }
 
 .breadcrumb-bar {
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 .glyphicon-menu-right {
@@ -227,19 +256,26 @@ a.topbar-right-link:focus, a.topbar-right-link:active {
 }
 
 .guardian-content {
-    margin-left: 44px;
+    margin-left: 5px;
     margin-bottom: 0;
     min-height: 32px;
 }
+
+.guardian-content2 {
+
+    margin-bottom: 0;
+    min-height: 32px;
+}
+
 
 .content-bar {
     background-color: #00456e;
     color: #fff;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    font-size: 16px;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    font-size: 15px;
 }
 
 a.content-bar:hover {
@@ -250,6 +286,10 @@ a.content-bar:hover {
 
 .nav-float-right {
     float: right;
+}
+
+.nav-float-left {
+    float: left;
 }
 
 #browse-all-sections {
@@ -297,14 +337,39 @@ a.content-bar-right:hover {
 }
 
 a.pink img{
-  vertical-align:     middle;
-  transition:         opacity 0.3s;
+  vertical-align: middle;
+  transition: opacity 0.3s;
   -webkit-transition: opacity 0.3s;
   padding-right: 0px;
 }
 a.pink:hover img{
   opacity:            0.8;
 }
+
+.grey-back {
+    background-color: #7d7569;
+    color: #fff;
+    min-height: 85px;
+}
+
+
+.grey-back:hover, .prink:focus  {
+    background-color: #6C655B;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.grey-back img{
+  vertical-align:     middle;
+  transition:         opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  padding-right: 0px;
+}
+a.grey-back:hover img{
+  opacity:            0.8;
+}
+
+
 
 .lighten {
     background-color: #eaeaea ;
@@ -346,36 +411,140 @@ a.lighten:hover img{
     height: 100%;
 }
 
-.storylink {
+
+    .storylink {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+    }
+
+    .storylink ul {
+        padding-left: 0;
+    }
+    .storylink a {
+        border: 1px solid rgb(75, 198, 223);
+        border-radius: 15px;
+        padding: 5px;
+        color: #00456e;
+    }
+
+    .storylink a:hover, .storylink a:focus  {
+        border: 1px solid #515151;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000;
+        text-decoration: none;
+    }
+
+   
+
+
+ .side-sect {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+.star-block {
     position: absolute;
-    bottom: 25px;
-    left: 0;
-}
-
-.storylink ul {
-    padding-left: 0;
-}
-.storylink a {
-     border: 1px solid rgb(75, 198, 223);
-     border-radius: 15px;
-     padding: 5px;
-     color: #00456e;
-}
-
-.storylink a:hover, .storylink a:focus  {
-     border: 1px solid #515151;
-     border-radius: 15px;
-     padding: 5px;
-     color: #000;
-     text-decoration: none;
-}
-
-
-
-
-
-.sidebar {
-    display: flex;
-    flex-direction: column;
+    bottom: 0;
 
 }
+.star-item-gold {
+    fill : #FFCE4B;
+}
+
+.star-item-grey {
+    fill : #5B554D;
+}
+
+.bottom-star-padding {
+    padding-bottom: 21px !important;
+    margin-bottom: 0px !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px !important;
+}
+
+.backtotop {
+    margin-left: 10px;
+   fill : #fff; 
+   display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(75,198,223,0.4);   
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 3px;
+}
+
+.tothetop {
+    color: #fff;
+}
+
+.mini-gap {
+    margin-top: 10px;
+}
+
+/********************************************************************/
+/*** PANEL DEFAULT
+     sourced from https://bootsnipp.com/snippets/featured/panels-with-nav-tabs 
+ ***/
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+
+
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+}
+.with-nav-tabs.panel-default .nav-tabs > .open > a,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+	background-color: #ddd;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+	color: #555;
+	background-color: #fff;
+	border-color: #ddd;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #777;   
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #ddd;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #555;
+}
+
+
+
+
+
