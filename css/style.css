@@ -1,3 +1,13 @@
+/*
+<!--
+* Author: Mark Tyrer
+* Assignment: FDWM Recreate a Technology Web Page
+* Student ID: 
+* Student ID: STU-00001347
+* Date: 10th of July, 2017
+-->
+*/
+
 * {
     font-family: 'Arvo', serif;
 }
@@ -143,6 +153,23 @@ aside {
     border-color: #4bc6df;
 }
 
+.main-article-body {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #4bc6df;
+
+    margin-left: 10px;
+    margin-right:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.author-pink {
+    color: #951c55;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .border-section-top {
     border-top-width: 1px !important;
     border-right-width: inherit;
@@ -208,6 +235,24 @@ a.topbar-right-link:focus, a.topbar-right-link:active {
     background-color: #dfdfdf;
     padding-left: 10px;
     
+}
+
+.heading-block-pink {
+    background-color: #951C55; 
+    padding: 10px;                                             
+    color: #fff;
+}
+
+.snippet-block-pink {
+    background-color: #B82266;   
+    color: #fff;
+    padding: 10px;
+}
+
+.caption {
+    background-color: #444444;
+    color: #fff;
+    min-height: 50px;
 }
 
 @media (max-width: 768px) {
@@ -479,6 +524,85 @@ a.lighten:hover img{
     border-radius: 15px;
     margin-top: 10px;
     padding-left: 3px;
+}
+
+.captioninfo {
+    float:right;
+    background-color: #333333;
+    margin-left: 10px;
+    margin-right:10px;
+    fill : #fff; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(75,198,223,0.4);   
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 3px;
+}
+
+.media-bar {
+    min-height: 40px;
+}
+
+.sm-icons {
+    margin-left: 10px;
+    margin-right:10px;
+    border-width: 1px;
+    border-style: solid;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 0px;
+
+}
+
+.facebook {
+    background-color: #3b5998;
+    fill : #fff; 
+    border-color: rgba(59,89,255,0.4);   
+}
+
+.twitter {
+    background-color: #4099ff;
+    fill : #fff; 
+    border-color: rgba(64, 153, 255, 0.4);
+}
+
+.twitter-pink {
+    background-color: #fff;
+    fill : #951c55; 
+    
+}
+
+.mail-icon {
+    background-color: #767676;
+    fill : #fff; 
+    border-color: rgba(118, 118, 118, 0.4);
+}
+
+.more-icon {
+    background-color: #aaa;
+    fill : #767676; 
+    border-color: #aaa;
+}
+
+.share {
+    fill:  rgb(118, 118, 118);  
+}
+
+.comment {
+ 
+    fill: #84194b;
+}
+
+
+
+.info-icon {
+    margin: 8px 8px 8px 8px;
 }
 
 .tothetop {

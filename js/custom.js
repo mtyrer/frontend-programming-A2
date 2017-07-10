@@ -1,3 +1,13 @@
+/*
+<!--
+* Author: Mark Tyrer
+* Assignment: FDWM Recreate a Technology Web Page
+* Student ID: 
+* Student ID: STU-00001347
+* Date: 10th of July, 2017
+-->
+*/
+
 /* This function stretches the side bar so that the all stories button can be positioned */
 function sidebarsize () {
     if (window.matchMedia('(min-width: 1200px)').matches) {
